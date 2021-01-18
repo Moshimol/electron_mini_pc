@@ -29,6 +29,6 @@
 
 #### Swift 版本-基于Mac OS 开发
 
-​	目前由两个想法，只是作为展示，加载WKWebView,根绝APP的OC版本去开发Swift版本
+​	目前由两个想法，只是作为展示，加载WKWebView,先根据APP的OC版本去开发Swift版本
 
 #### 
