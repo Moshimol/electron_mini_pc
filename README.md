@@ -27,6 +27,17 @@
 
 
 
+#### 学习过程
+
+##### 初始换Vue
+
+  利用Vue初始化项目,vue create eletron-mini-pc,配置相关json,使用vue add electron-builder 添加electron.一定要注意,不要添加history，使用No，然后npm run electron:serve
+
+  需要了解的资料 
+  1、https://www.bookstack.cn/read/electron-vue-in-action/ad1f19af8c261c70.md
+  2、Vue相关的知识
+
+
 #### Swift 版本-基于Mac OS 开发
 
 ​	目前由两个想法，只是作为展示，加载WKWebView,先根据APP的OC版本去开发Swift版本
