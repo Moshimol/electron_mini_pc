@@ -1,9 +1,9 @@
 <template>
   <el-container id="app" class="container">
-    <el-header height="30px">
+    <el-header height="100%">
       <mini-top></mini-top>
     </el-header>
-    <el-main>底部内容的显示</el-main>
+    <el-main>内容显示</el-main>
   </el-container>
 </template>
 
@@ -23,7 +23,13 @@ export default {
 };
 </script>
 <style>
+@import "./assets/iconfont/iconfont.css";
+
 .container {
   padding: 0px;
+}
+.el-header,
+.el-main {
+  padding: 0 !important;
 }
 </style>
