@@ -1,7 +1,7 @@
 <template>
   <div class="top-header">
     <i class="iconfont icon-file-open"></i>
-    <i class="iconfont icon-setting"></i>
+    <i class="iconfont icon-setting" v-on:tap="settingApp"></i>
     <el-select
       v-model="value"
       placeholder="请选择"
@@ -51,7 +51,9 @@ export default {
     // 打开文件
     openFile: function() {},
     // 设置APP
-    settingApp: function() {},
+    settingApp: function() {
+      this.$router.push({ path: "/about" });
+    },
     // 刷新该页面
     refresh: function() {},
     // 执行编译
